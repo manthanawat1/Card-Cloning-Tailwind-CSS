@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  transition: all 0.25s ease-in-out;
 }
 
 html {
@@ -12,6 +11,7 @@ html {
 }
 
 .item-list-container:hover {
+  transition: all 0.25s ease-in-out;
   transform: scale(1.12);
   border: 3px solid #f79f7a;
 }
