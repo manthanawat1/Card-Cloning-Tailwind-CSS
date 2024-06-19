@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          colors: {
+            "red": "#e50555",
+            "light-red": "#f5a0bd",
+            "blue": "#0e4def",
+            "light-blue": "#b7cafa",
+            "green": "#09a029",
+            "light-green": "#71c883",
+            "gray": "#e0e0e0",
+            "light-gray": "#dddddd",
+            "white": "#ffffff",
+          },
+        },
+      };
+    </script>
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+    <title>CSS Styling</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex items-center justify-center p-16 sm:p-10 min-h-screen">
+      <!-- Inner Container -->
+      <div
+        class="flex flex-col my-6 space-y-6 sm:space-y-0 sm:space-x-3 sm:flex-row md:my-0"
+      >
+        <!-- Col 1 -->
+        <div
+          class="p-6 rounded-3xl border border-gray sm:w-[21.5rem] bg-white item-list-container"
+        >
+          <!-- Upper Container -->
+          <div class="mt-2 rounded-t-xl">
+            <div class="mt-2 text-center flex items-center">
+              <span class="text-5xl font-bold">$39</span>
+              <span class="pl-2 text-xl font-medium">/month</span>
+            </div>
+            <h2 class="mt-14 font-semibold text-3xl text-red">Basic License</h2>
+            <div class="mt-5 text-lg font-medium">
+              Our goverment backed plan designed to keep your business legaly
+              and secure
+            </div>
+          </div>
+
+          <!-- Border -->
+          <hr class="my-7 text-light-gray" />
+
+          <!-- List Container -->
+          <div class="space-y-3">
+            <!-- List Item 1 -->
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-1 w-5 h-full text-red"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="none"
+              >
+                <path
+                  d="M22.903 2.828L20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z"
+                />
+              </svg>
+              <span class="text-lg font-medium ml-2"
+                >Secure your customer usage
+              </span>
+            </div>
+
+            <!-- List Item 2 -->
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-1 w-5 h-full text-red"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="none"
+              >
+                <path
+                  d="M22.903 2.828L20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z"
+                />
+              </svg>
+              <span class="text-lg font-medium ml-2"
+                >View basic analytics
+              </span>
+            </div>
+
+            <!-- List Item 3 -->
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-1 w-5 h-full text-red"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="none"
+              >
+                <path
+                  d="M22.903 2.828L20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z"
+                />
+              </svg>
+              <span class="text-lg font-medium ml-2"
+                >Up to 350 customer profiles
+              </span>
+            </div>
+
+            <!-- List Item 4 -->
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-1 w-5 h-full text-red"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="none"
+              >
+                <path
+                  d="M22.903 2.828L20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z"
+                />
+              </svg>
+              <span class="text-lg font-medium ml-2">Custom network name </span>
+            </div>
+          </div>
+
+          <!-- Button Container -->
+          <div class="flex justify-center">
+            <a
+              href="#"
+              class="button px-5 py-3 mt-14 uppercase text-center rounded-md tracking-widest duration-200 text-xs font-semibold text-white bg-red border border-light-red"
+              >Your current plan</a
+            >
+          </div>
+        </div>
+
+        <!-- Col 2 -->
+        <div
+          class="p-6 rounded-3xl border border-gray sm:w-[21.5rem] bg-white item-list-container"
+        >
+          <!-- Upper Container -->
+          <div class="mt-2 rounded-t-xl">
+            <div class="mt-2 text-center flex items-center">
+              <span class="text-5xl font-bold">$60</span>
+              <span class="pl-2 text-xl font-medium">/month</span>
+            </div>
+            <h2 class="mt-14 font-semibold text-3xl text-blue">
+              Social License
+            </h2>
+            <div class="mt-5 text-lg font-medium">
+              Unlimited analytics, plans, demographic insights. All you need to
+              grow-up your business
+            </div>
+          </div>
+
+          <!-- Border -->
+          <hr class="my-7 text-light-gray" />
+
+          <!-- List Container -->
+          <div class="space-y-3">
+            <!-- List Item 1 -->
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-1 w-5 h-full text-blue"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="none"
+              >
+                <path
+                  d="M22.903 2.828L20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z"
+                />
+              </svg>
+              <span class="text-lg font-medium ml-2"
+                >Add your own branding
+              </span>
+            </div>
+
+            <!-- List Item 2 -->
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-1 w-5 h-full text-blue"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="none"
+              >
+                <path
+                  d="M22.903 2.828L20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z"
+                />
+              </svg>
+              <span class="text-lg font-medium ml-2"
+                >View popularity analytics
+              </span>
+            </div>
+
+            <!-- List Item 3 -->
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-1 w-5 h-full text-blue"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="none"
+              >
+                <path
+                  d="M22.903 2.828L20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z"
+                />
+              </svg>
+              <span class="text-lg font-medium ml-2"
+                >Up to 1500 customer profiles
+              </span>
+            </div>
+
+            <!-- List Item 4 -->
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-1 w-5 h-full text-blue"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="none"
+              >
+                <path
+                  d="M22.903 2.828L20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z"
+                />
+              </svg>
+              <span class="text-lg font-medium ml-2"
+                >View demographic insights</span
+              >
+            </div>
+          </div>
+
+          <!-- Button Container -->
+          <div class="flex justify-center">
+            <a
+              href="#"
+              class="button px-5 py-3 mt-14 uppercase text-center rounded-md tracking-widest duration-200 text-xs font-semibold text-white bg-blue border border-light-blue"
+              >Upgrade to social</a
+            >
+          </div>
+        </div>
+
+        <!-- Col 3 -->
+        <div
+          class="p-6 rounded-3xl border border-gray sm:w-[21.5rem] bg-white item-list-container"
+        >
+          <!-- Upper Container -->
+          <div class="mt-2 rounded-t-xl">
+            <div class="mt-2 text-center flex items-center">
+              <span class="text-5xl font-bold">$125</span>
+              <span class="pl-2 text-xl font-medium">/month</span>
+            </div>
+            <h2 class="mt-14 font-semibold text-3xl text-green">
+              Marketing License
+            </h2>
+            <div class="mt-5 text-lg font-medium">
+              Unlock powerfull time-saving tools for creating email delivery and
+              collecting marketing data
+            </div>
+          </div>
+
+          <!-- Border -->
+          <hr class="my-7 text-light-gray" />
+
+          <!-- List Container -->
+          <div class="space-y-3">
+            <!-- List Item 1 -->
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-1 w-5 h-full text-green"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="none"
+              >
+                <path
+                  d="M22.903 2.828L20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z"
+                />
+              </svg>
+              <span class="text-lg font-medium ml-2"
+                >Collect marketing data
+              </span>
+            </div>
+
+            <!-- List Item 2 -->
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-1 w-5 h-full text-green"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="none"
+              >
+                <path
+                  d="M22.903 2.828L20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z"
+                />
+              </svg>
+              <span class="text-lg font-medium ml-2">Design your emails </span>
+            </div>
+
+            <!-- List Item 3 -->
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-1 w-5 h-full text-green"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="none"
+              >
+                <path
+                  d="M22.903 2.828L20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z"
+                />
+              </svg>
+              <span class="text-lg font-medium ml-2"
+                >Email campaigns & interactions
+              </span>
+            </div>
+
+            <!-- List Item 4 -->
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mt-1 w-5 h-full text-green"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="none"
+              >
+                <path
+                  d="M22.903 2.828L20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z"
+                />
+              </svg>
+              <span class="text-lg font-medium ml-2"
+                >View your customer's profiles</span
+              >
+            </div>
+          </div>
+
+          <!-- Button Container -->
+          <div class="flex justify-center">
+            <a
+              href="#"
+              class="button px-5 py-3 mt-14 uppercase text-center rounded-md tracking-widest duration-200 text-xs font-semibold text-white bg-green border border-light-green"
+              >Upgrade to marketing</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
