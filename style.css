@@ -10,9 +10,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.item-list-container {
+  transition: transform 0.15s ease-in-out;
+}
+
 .item-list-container:hover {
   transform: scale(1.12);
-  transition: transform 0.15s ease-in-out;
   box-shadow: 0 0 0 3px #f79f7a;
 }
 
